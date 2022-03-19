@@ -1,5 +1,5 @@
 {
-  "name": "@vospel/eslint-config",
+  "name": "eslint-config-vospel",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Marek Vospěl's eslint configurations",

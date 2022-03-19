@@ -5,7 +5,7 @@
 These are settings for Eslint I use in my projects.
 
 ## Installing
-Install `eslint` and `@vospel/eslint-config`
+Install `eslint` and `eslint-config-vospel`
 ```shell
 npm i -D eslint eslint-config-vospel
 ```
