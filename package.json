@@ -1,0 +1,16 @@
+{
+  "name": "@vospel/eslint-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Marek Vospěl's eslint configurations",
+  "author": "Marek Vospěl",
+  "tags": ["eslint", "eslint-config"],
+  "main": "index.js",
+  "repository": "https://github.com/marekvospel/eslint-config",
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
