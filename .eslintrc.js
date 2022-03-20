@@ -5,5 +5,5 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extends: '@vospel/eslint-config/base',
+  extends: 'eslint-config-vospel/base',
 }
