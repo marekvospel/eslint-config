@@ -6,7 +6,7 @@ module.exports = {
     'indent': ['warn', 2],
     'curly': ['warn', 'multi'],
     'eqeqeq': ['warn'],
-    'multiline-comment-style': ['warn', 'starred-block'],
+    'multiline-comment-style': ['warn', 'bare-block'],
     'no-extra-boolean-cast': ['warn'],
     'brace-style': ['warn'],
 

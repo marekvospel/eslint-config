@@ -20,3 +20,19 @@ module.exports = {
 }
 ```
 
+### Typescript config
+Install optional `@typescript-eslint` dependencies.
+
+```shell
+npm i -D eslint eslint-config-vospel @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
+Add following extends to your `.eslintrc`. Extending `vospel` (`vospel/base`) is unnecessary, because the typescript config extends it.
+```js
+module.exports = {
+  extends: [
+    'vospel/typescript'
+  ]
+}
+```
+
