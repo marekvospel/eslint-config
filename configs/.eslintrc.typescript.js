@@ -8,7 +8,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': ['warn'],
-    '@typescript-eslint/array-type': ['warn', { 'array': true }],
+    '@typescript-eslint/array-type': ['warn', { array: true }],
     // '@typescript-eslint/await-thenable': ['error'], (requires parserOptions.project)
     '@typescript-eslint/ban-types': ['warn'],
     '@typescript-eslint/consistent-indexed-object-style': ['warn', 'index-signature'],
@@ -17,15 +17,13 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': ['warn'],
     '@typescript-eslint/member-delimiter-style': ['warn'],
     '@typescript-eslint/method-signature-style': ['warn', 'method'],
-    '@typescript-eslint/no-empty-interface': ['error', { 'allowSingleExtends': false }],
+    '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: false }],
     '@typescript-eslint/no-extraneous-class': ['warn', {
       'allowConstructorOnly': true,
       'allowStaticOnly': true,
       'allowWithDecorator': true,
     }],
-    '@typescript-eslint/no-floating-promises': ['warn', {
-      'ignoreVoid': true,
-    }],
+    '@typescript-eslint/no-floating-promises': ['warn', { ignoreVoid: true }],
     '@typescript-eslint/no-extra-non-null-assertion': ['warn'],
     '@typescript-eslint/no-for-in-array': ['error'],
     '@typescript-eslint/no-inferable-types': ['warn'],
@@ -57,10 +55,7 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': ['warn'],
     '@typescript-eslint/restrict-plus-operands': ['error'],
     '@typescript-eslint/restrict-template-expressions': ['error'],
-    '@typescript-eslint/type-annotation-spacing': ['warn', {
-      'before': false,
-      'after': true,
-    }],
+    '@typescript-eslint/type-annotation-spacing': ['warn', { before: false, after: true }],
 
     'brace-style': ['off'],
     '@typescript-eslint/brace-style': ['warn'],
