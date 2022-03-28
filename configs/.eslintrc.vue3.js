@@ -5,7 +5,7 @@ module.exports = {
   rules: {
     'vue/block-lang': ['error', { script: { lang: 'ts' } }],
     'vue/block-tag-newline': ['warn', { singleline: 'always', multiline: 'always' }],
-    'vue/component-name-in-template-casing': ['error', 'PascalCase', { registeredComponentsOnly: true }],
+    'vue/component-name-in-template-casing': ['error', 'PascalCase', { registeredComponentsOnly: false }],
     'vue/component-options-name-casing': ['error', 'PascalCase'],
     'vue/custom-event-name-casing': ['error', 'camelCase'],
     'vue/html-button-has-type': ['warn'],
@@ -18,8 +18,7 @@ module.exports = {
     'vue/no-empty-component-block': ['warn'],
     'vue/no-reserved-component-names': ['error'],
     'vue/no-template-target-blank': ['warn'],
-    'vue/no-undef-components': ['error'],
-    'vue/no-unused-properties': ['warn'],
+    'vue/no-undef-components': ['error', { ignorePatterns: ['RouterView', 'RouterLink'] }],
     'vue/padding-line-between-blocks': ['warn', 'always'],
     'vue/prefer-import-from-vue': ['warn'],
     'vue/prefer-separate-static-class': ['warn'],

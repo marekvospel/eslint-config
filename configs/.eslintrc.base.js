@@ -84,7 +84,7 @@ module.exports = {
       },
     }],
 
-    'spaced-comment': ['warn', 'always'],
+    'spaced-comment': ['warn', 'always', { markers: ['/'] }],
 
     'constructor-super': ['error'],
     'for-direction': ['error'],
