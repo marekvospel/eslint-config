@@ -43,7 +43,7 @@ module.exports = {
     'template-tag-spacing': ['warn', 'always'],
     'eol-last': ['warn', 'always'],
     'function-call-argument-newline': ['warn', 'consistent'],
-    'func-style': ['warn', 'declaration'],
+    'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
     'function-paren-newline': ['warn', 'consistent'],
     'implicit-arrow-linebreak': ['error', 'beside'],
     'linebreak-style': ['error', 'unix'],
