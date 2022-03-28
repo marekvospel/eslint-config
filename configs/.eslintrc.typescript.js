@@ -3,9 +3,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: ['vospel/base', 'plugin:@typescript-eslint/eslint-recommended'],
   parser: require.resolve('@typescript-eslint/parser'),
-  parserOptions: {
-    sourceType: 'module',
-  },
+  parserOptions: { sourceType: 'module' },
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': ['warn'],
     '@typescript-eslint/array-type': ['warn', { array: true }],
@@ -19,9 +17,9 @@ module.exports = {
     '@typescript-eslint/method-signature-style': ['warn', 'method'],
     '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: false }],
     '@typescript-eslint/no-extraneous-class': ['warn', {
-      'allowConstructorOnly': true,
-      'allowStaticOnly': true,
-      'allowWithDecorator': true,
+      allowConstructorOnly: true,
+      allowStaticOnly: true,
+      allowWithDecorator: true,
     }],
     '@typescript-eslint/no-floating-promises': ['warn', { ignoreVoid: true }],
     '@typescript-eslint/no-extra-non-null-assertion': ['warn'],
