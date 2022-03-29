@@ -10,7 +10,10 @@ module.exports = {
     '@typescript-eslint/consistent-indexed-object-style': ['warn', 'index-signature'],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-function-return-type': ['warn'],
-    '@typescript-eslint/member-delimiter-style': ['warn'],
+    '@typescript-eslint/member-delimiter-style': ['warn', {
+      multiline: { delimiter: 'none' },
+      singleLine: { requireLast: false },
+    }],
     '@typescript-eslint/method-signature-style': ['warn', 'method'],
     '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: false }],
     '@typescript-eslint/no-extraneous-class': ['warn', {
