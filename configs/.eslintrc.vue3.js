@@ -11,6 +11,8 @@ module.exports = {
     'vue/html-button-has-type': ['warn'],
     'vue/html-comment-content-spacing': ['warn', 'always'],
     'vue/html-comment-indent': ['warn', 2],
+    'vue/script-indent': ['warn', 2],
+    'vue/html-indent': ['warn', 2],
     'vue/match-component-file-name': ['error'],
     'vue/new-line-between-multi-line-property': ['warn'],
     'vue/next-tick-style': ['warn', 'promise'],
