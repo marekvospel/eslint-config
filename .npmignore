@@ -1,6 +1,6 @@
-.idea/
-.eslintrc.js
-pnpm-lock.yaml
-package-lock.json
-yarn.lock
-.husky
+*
+!configs/**/*
+!package.json
+!LICENSE
+!index.js
+!README.md
