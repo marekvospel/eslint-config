@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['@typescript-eslint'],
-  extends: ['vospel/base', 'plugin:@typescript-eslint/eslint-recommended'],
+  extends: ['@vospel/base', 'plugin:@typescript-eslint/eslint-recommended'],
   parser: require.resolve('@typescript-eslint/parser'),
   parserOptions: { sourceType: 'module' },
   rules: {

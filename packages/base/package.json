@@ -1,0 +1,25 @@
+{
+  "name": "@vospel/eslint-config-base",
+  "version": "1.3.6",
+  "license": "MIT",
+  "description": "Marek Vospěl's base eslint configuration",
+  "author": "Marek Vospěl",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./index.js"
+  },
+  "scripts": {
+    "release": "standard-version -t 'base-'"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
