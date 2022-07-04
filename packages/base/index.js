@@ -1,3 +1,3 @@
-const baseEslintrc = require('./.eslintrc.base.js')
+const baseEslintrc = require('./dist/index.js')
 
 module.exports = baseEslintrc
