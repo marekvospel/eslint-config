@@ -37,8 +37,6 @@ export const rules = {
   'space-before-blocks': ['warn', 'always'],
   'space-in-parens': ['warn', 'never'],
   'switch-colon-spacing': ['warn', { after: true, before: false }],
-  // TODO: disable
-  'template-curly-spacing': ['warn', 'always'],
   'template-tag-spacing': ['warn', 'always'],
   'space-infix-ops': ['warn', { int32Hint: false }],
   'spaced-comment': ['warn', 'always', { markers: ['/'] }],
