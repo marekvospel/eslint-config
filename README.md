@@ -1,5 +1,7 @@
 # Marek Vospěl's eslint configs
 
+> **`eslint-config-vospel` is deprecated**. Switch to [`@vospel/eslint-config`](https://npmjs.com/package/@vospel/eslint-config)!
+
 [![Github license](https://img.shields.io/github/license/marekvospel/eslint-config)](https://github.com/marekvospel/eslint-config)
 [![npm](https://img.shields.io/npm/v/eslint-config-vospel)](https://npmjs.com/package/eslint-config-vospel)
 
