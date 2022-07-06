@@ -8,10 +8,14 @@
     "eslint",
     "eslint-config"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "exports": {
     "./package.json": "./package.json",
     ".": "./index.js"
+  },
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.js --environment TARGET:config",
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"

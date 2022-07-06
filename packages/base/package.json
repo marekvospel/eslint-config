@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "rollup -c ../../rollup.config.js --environment TARGET:base",
-    "prerelease": "npm run build"
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
