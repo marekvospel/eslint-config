@@ -1,15 +1,21 @@
 
 export const rules = {
+  // semis
   'semi': ['warn', 'never'],
   'semi-style': ['error', 'last'],
+
+  // quotes
   'quotes': ['warn', 'single'],
   'jsx-quotes': ['warn', 'prefer-double'],
-  'indent': ['warn', 2],
-  'brace-style': ['warn', '1tbs', { allowSingleLine: true }],
   'quote-props': ['warn', 'consistent-as-needed'],
+
+  // indent / no tabs
+  'indent': ['warn', 2],
   'no-tabs': ['error'],
   'no-trailing-spaces': ['warn', { ignoreComments: true, skipBlankLines: true }],
+  'no-mixed-spaces-and-tabs': ['warn'],
 
+  // spacing
   'keyword-spacing': ['warn', {
     before: true,
     after: true,
@@ -20,7 +26,6 @@ export const rules = {
     },
   }],
   'arrow-spacing': ['warn', { before: true, after: true }],
-  'array-bracket-newline': ['warn', 'consistent'],
   'array-bracket-spacing': ['warn', 'never'],
   'block-spacing': ['warn', 'always'],
   'computed-property-spacing': ['warn'],
@@ -31,12 +36,39 @@ export const rules = {
   'rest-spread-spacing': ['warn', 'never'],
   'space-before-blocks': ['warn', 'always'],
   'space-in-parens': ['warn', 'never'],
-  'space-infix-ops': ['warn', { int32Hint: false }],
   'switch-colon-spacing': ['warn', { after: true, before: false }],
+  // TODO: disable
   'template-curly-spacing': ['warn', 'always'],
   'template-tag-spacing': ['warn', 'always'],
-  'eol-last': ['warn', 'always'],
+  'space-infix-ops': ['warn', { int32Hint: false }],
+  'spaced-comment': ['warn', 'always', { markers: ['/'] }],
+  'space-before-function-paren': ['warn', {
+    anonymous: 'always',
+    named: 'never',
+    asyncArrow: 'always',
+  }],
+  'space-unary-ops': ['warn', {
+    words: true,
+    nonwords: false,
+  }],
+  'no-whitespace-before-property': ['warn'],
+  'semi-spacing': ['error', { before: false, after: true }],
 
+  // newlines
+  'brace-style': ['warn', '1tbs', { allowSingleLine: true }],
+  'array-bracket-newline': ['warn', 'consistent'],
+  'lines-between-class-members': ['warn', 'always', { exceptAfterSingleLine: true }],
+  'function-call-argument-newline': ['warn', 'consistent'],
+  'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
+  'function-paren-newline': ['warn', 'consistent'],
+  'implicit-arrow-linebreak': ['error', 'beside'],
+  'no-spaced-func': ['warn'],
+  'linebreak-style': ['error', 'unix'],
+  'object-curly-newline': ['warn', { multiline: true }],
+  'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
+  'nonblock-statement-body-position': ['warn', 'beside', { overrides: {} }],
+
+  // commas
   'comma-spacing': ['warn', { before: false, after: true }],
   'comma-dangle': ['warn', 'always-multiline'],
   'comma-style': ['warn', 'last', {
@@ -55,30 +87,7 @@ export const rules = {
     },
   }],
 
-  'function-call-argument-newline': ['warn', 'consistent'],
+  // other
+  'eol-last': ['warn', 'always'],
   'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
-
-  'spaced-comment': ['warn', 'always', { markers: ['/'] }],
-
-  'function-paren-newline': ['warn', 'consistent'],
-  'implicit-arrow-linebreak': ['error', 'beside'],
-  'linebreak-style': ['error', 'unix'],
-  'lines-between-class-members': ['warn', 'always', { exceptAfterSingleLine: true }],
-  'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
-  'no-mixed-spaces-and-tabs': ['warn'],
-  'no-spaced-func': ['warn'],
-  'no-whitespace-before-property': ['warn'],
-  'nonblock-statement-body-position': ['warn', 'beside', { overrides: {} }],
-  'object-curly-newline': ['warn', { multiline: true }],
-  'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
-  'semi-spacing': ['error', { before: false, after: true }],
-  'space-before-function-paren': ['warn', {
-    anonymous: 'always',
-    named: 'never',
-    asyncArrow: 'always',
-  }],
-  'space-unary-ops': ['warn', {
-    words: true,
-    nonwords: false,
-  }],
 }
