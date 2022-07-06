@@ -26,7 +26,7 @@
     "lint": "eslint --fix --ext .js . --ignore-pattern ./node_modules",
     "lint:staged": "lint-staged",
     "prepare": "husky install",
-    "bump": "bumpp package.json packages/**/package.json --no-push -x 'conventional-changelog-cli -i CHANGELOG.md -s'"
+    "bump": "bumpp package.json packages/**/package.json --no-push -x 'npx --no-install conventional-changelog-cli -i CHANGELOG.md -s'"
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
