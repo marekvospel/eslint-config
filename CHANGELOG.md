@@ -1,3 +1,5 @@
+### [1.4.2](https://github.com/marekvospel/eslint-config/compare/1.4.1...1.4.2) (2022-07-07)
+
 ### [1.4.1](https://github.com/marekvospel/eslint-config/compare/1.3.6...1.4.1) (2022-07-06)
 
 
