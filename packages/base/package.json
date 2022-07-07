@@ -8,6 +8,10 @@
     "eslint",
     "eslint-config"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marekvospel/eslint-config.git"
+  },
   "main": "dist/index.js",
   "exports": {
     "./package.json": "./package.json",
