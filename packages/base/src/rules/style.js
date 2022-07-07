@@ -65,6 +65,7 @@ export const rules = {
   'object-curly-newline': ['warn', { multiline: true }],
   'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
   'nonblock-statement-body-position': ['warn', 'beside', { overrides: {} }],
+  'no-unexpected-multiline': ['error'],
 
   // commas
   'comma-spacing': ['warn', { before: false, after: true }],
@@ -88,4 +89,8 @@ export const rules = {
   // other
   'eol-last': ['warn', 'always'],
   'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
+  'multiline-comment-style': ['warn', 'bare-block'],
+  'camelcase': ['error', { properties: 'never', ignoreDestructuring: false }],
+  'new-parens': ['error', 'always'],
+  'no-extra-boolean-cast': ['warn'],
 }
