@@ -7,7 +7,7 @@ export const rules = {
     multiline: 'below',
   }],
   'vue/html-closing-bracket-newline': ['warn', {
-    singleline: 'ignore',
+    singleline: 'never',
     multiline: 'always',
   }],
   'vue/html-closing-bracket-spacing': ['warn', {

@@ -6,6 +6,7 @@ import { rules as style } from './rules/style'
 
 module.exports = {
   extends: ['@vospel/typescript'],
+  plugins: ['vue'],
   overrides: [
     {
       files: ['*.vue'],
