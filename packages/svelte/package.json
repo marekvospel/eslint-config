@@ -1,8 +1,8 @@
 {
-  "name": "@vospel/eslint-config",
+  "name": "@vospel/eslint-config-svelte",
   "version": "1.4.6",
   "license": "MIT",
-  "description": "Marek Vospěl's eslint configuration",
+  "description": "Marek Vospěl's svelte eslint configuration",
   "author": "Marek Vospěl",
   "keywords": [
     "eslint",
@@ -12,13 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/marekvospel/eslint-config.git"
   },
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "exports": {
     "./package.json": "./package.json",
     ".": "./index.js"
   },
   "scripts": {
-    "build": "rollup -c ../../rollup.config.js --environment TARGET:config",
+    "build": "rollup -c ../../rollup.config.js --environment TARGET:svelte",
     "prepublish": "npm run build"
   },
   "peerDependencies": {
@@ -28,9 +28,13 @@
     "eslint": "^8.11.0"
   },
   "dependencies": {
-    "@vospel/eslint-config-base": "workspace:*",
-    "@vospel/eslint-config-svelte": "workspace:^1.4.6",
     "@vospel/eslint-config-typescript": "workspace:*",
-    "@vospel/eslint-config-vue": "workspace:*"
+    "eslint-plugin-svelte": "^2.2.0",
+    "svelte-eslint-parser": "^0.16.4"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": "svelte"
+    }
   }
 }

@@ -22,16 +22,19 @@
     "prepublish": "npm run build"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0",
-    "typescript": ">=3.9"
+    "eslint": ">=7.4.0"
   },
   "devDependencies": {
-    "eslint": "^8.11.0",
-    "typescript": "^4.7.4"
+    "eslint": "^8.11.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.4",
     "@typescript-eslint/parser": "^5.30.4",
     "@vospel/eslint-config-base": "workspace:*"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": "typescript"
+    }
   }
 }
