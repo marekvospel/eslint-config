@@ -1,3 +1,10 @@
+### [1.4.9](https://github.com/marekvospel/eslint-config/compare/1.4.8...1.4.9) (2022-07-10)
+
+
+### Bug Fixes
+
+* eslint-config-svelte version in @vospel/eslint-config ([e5af965](https://github.com/marekvospel/eslint-config/commit/e5af965c7b1b6b112110897803122b69de728a4f))
+
 ### [1.4.8](https://github.com/marekvospel/eslint-config/compare/1.4.7...1.4.8) (2022-07-10)
 
 

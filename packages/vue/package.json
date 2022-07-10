@@ -1,6 +1,6 @@
 {
   "name": "@vospel/eslint-config-vue",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "license": "MIT",
   "description": "Marek Vospěl's vue eslint configuration",
   "author": "Marek Vospěl",
