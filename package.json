@@ -40,5 +40,10 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["typescript", "svelte"]
+    }
+  }
 }

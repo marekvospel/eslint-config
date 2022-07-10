@@ -1,3 +1,7 @@
+import { rules as eslint } from './rules/eslint'
+import { rules as errors } from './rules/errors'
+import { rules as bestPractices } from './rules/best-practices'
+import { rules as style } from './rules/style'
 
 module.exports = {
   extends: ['@vospel/typescript'],
@@ -14,5 +18,10 @@ module.exports = {
       },
     },
   ],
-  rules: {},
+  rules: {
+    ...eslint,
+    ...errors,
+    ...bestPractices,
+    ...style,
+  },
 }

@@ -20,4 +20,5 @@ module.exports = {
       'no-new-object': ['error'],
     },
   },
+  reportUnusedDisableDirectives: true,
 }

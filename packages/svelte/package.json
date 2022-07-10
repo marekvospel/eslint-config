@@ -31,10 +31,5 @@
     "@vospel/eslint-config-typescript": "workspace:*",
     "eslint-plugin-svelte": "^2.2.0",
     "svelte-eslint-parser": "^0.16.4"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": "svelte"
-    }
   }
 }
