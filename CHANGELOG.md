@@ -1,3 +1,10 @@
+### [1.4.5](https://github.com/marekvospel/eslint-config/compare/1.4.4...1.4.5) (2022-07-10)
+
+
+### Bug Fixes
+
+* don't define version in package.json ([c787ee8](https://github.com/marekvospel/eslint-config/commit/c787ee896978bddbd2af1f3be2d8487e531d04ae))
+
 ### [1.4.4](https://github.com/marekvospel/eslint-config/compare/1.4.3...1.4.4) (2022-07-10)
 
 
