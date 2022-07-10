@@ -1,3 +1,10 @@
+### [1.4.6](https://github.com/marekvospel/eslint-config/compare/1.4.5...1.4.6) (2022-07-10)
+
+
+### Bug Fixes
+
+* **vue:** add vue-eslint-parser to dependencies, remove deprecated environment option ([313edf5](https://github.com/marekvospel/eslint-config/commit/313edf5390471efe7e27bb97965072794c4248ba))
+
 ### [1.4.5](https://github.com/marekvospel/eslint-config/compare/1.4.4...1.4.5) (2022-07-10)
 
 
