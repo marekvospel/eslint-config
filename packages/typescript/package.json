@@ -30,6 +30,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.4",
     "@typescript-eslint/parser": "^5.30.4",
-    "@vospel/eslint-config-base": "workspace:*"
+    "@vospel/eslint-config-base": "workspace:*",
+    "typescript": "^4.7.4"
   }
 }
