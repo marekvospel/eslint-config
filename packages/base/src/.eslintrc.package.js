@@ -2,7 +2,10 @@ import { rules as style } from './rules/style'
 import { rules as ops } from './rules/ops'
 import { rules as errors } from './rules/errors'
 
+import { ignore } from './ignore'
+
 module.exports = {
+  ignorePatterns: ignore,
   rules: {
     ...ops,
     ...errors,

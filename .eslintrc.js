@@ -8,4 +8,8 @@ module.exports = {
   extends: [
     '@vospel',
   ],
+  rules: {
+    '@typescript-eslint/no-require-imports': ['off'],
+    '@typescript-eslint/no-var-requires': ['off'],
+  },
 }
