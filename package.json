@@ -1,6 +1,6 @@
 {
   "name": "@vospel/eslint-configs",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "private": true,
   "license": "MIT",
   "description": "Marek Vospěl's eslint configurations",
@@ -43,7 +43,10 @@
   ],
   "pnpm": {
     "peerDependencyRules": {
-      "ignoreMissing": ["typescript", "svelte"]
+      "ignoreMissing": [
+        "typescript",
+        "svelte"
+      ]
     }
   }
 }

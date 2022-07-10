@@ -1,3 +1,11 @@
+### [1.4.7](https://github.com/marekvospel/eslint-config/compare/1.4.6...1.4.7) (2022-07-10)
+
+
+### Features
+
+* **svelte:** add eslint-config-svelte, fix peer dependency warnings ([faa66ea](https://github.com/marekvospel/eslint-config/commit/faa66eaa05f2be2aeaa93d1b9b347606c0163780))
+* **svelte:** add eslint-plugin-svelte rules ([c7f15c3](https://github.com/marekvospel/eslint-config/commit/c7f15c3dd50f3b74288a38c101a76334d32b8745))
+
 ### [1.4.6](https://github.com/marekvospel/eslint-config/compare/1.4.5...1.4.6) (2022-07-10)
 
 
