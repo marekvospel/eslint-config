@@ -1,3 +1,15 @@
+### [1.4.4](https://github.com/marekvospel/eslint-config/compare/1.4.3...1.4.4) (2022-07-10)
+
+
+### Features
+
+* **base:** add ignorePatterns ([68836da](https://github.com/marekvospel/eslint-config/commit/68836daa646408ec92bc7eb2e216e73c508fa0d2))
+
+
+### Bug Fixes
+
+* **vue:** add eslint-plugin-vue to config, @vue/html-closing-bracket-newline ([382b798](https://github.com/marekvospel/eslint-config/commit/382b7980c96d8144a48e8b7b62c9a1956570ed02))
+
 ### [1.4.3](https://github.com/marekvospel/eslint-config/compare/1.4.2...1.4.3) (2022-07-10)
 
 
