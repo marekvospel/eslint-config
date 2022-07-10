@@ -1,7 +1,8 @@
 # Marek Vospěl's eslint configs
 
-[![Github license](https://img.shields.io/github/license/marekvospel/eslint-config)](https://github.com/marekvospel/eslint-config)
+[![GitHub version](https://img.shields.io/github/package-json/v/marekvospel/eslint-config)](https://github.com/marekvospel/eslint-config)
 [![npm](https://img.shields.io/npm/v/@vospel/eslint-config)](https://npmjs.com/package/@vospel/eslint-config)
+[![Github license](https://img.shields.io/github/license/marekvospel/eslint-config)](https://github.com/marekvospel/eslint-config)
 
 These are settings for Eslint I use in my projects.
 
