@@ -1,6 +1,6 @@
 
 module.exports = {
-  extends: ['plugin:vue/vue3-essential'],
+  extends: ['@vospel/typescript', 'plugin:vue/vue3-essential'],
   env: { 'vue/setup-compiler-macros': true },
   rules: {
     'vue/block-lang': ['error', { script: { lang: 'ts' } }],
