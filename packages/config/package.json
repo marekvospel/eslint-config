@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@vospel/eslint-config-base": "workspace:*",
-    "@vospel/eslint-config-svelte": "workspace:^1.4.6",
+    "@vospel/eslint-config-svelte": "workspace:*",
     "@vospel/eslint-config-typescript": "workspace:*",
     "@vospel/eslint-config-vue": "workspace:*"
   }

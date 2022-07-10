@@ -14,7 +14,7 @@
     "url": "git+https://github.com/marekvospel/eslint-config.git"
   },
   "devDependencies": {
-    "@vospel/eslint-config": "workspace:^1.4.2",
+    "@vospel/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
     "conventional-changelog-cli": "^2.2.2",
     "esbuild": "^0.14.48",
