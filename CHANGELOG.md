@@ -1,3 +1,13 @@
+### [1.4.3](https://github.com/marekvospel/eslint-config/compare/1.4.2...1.4.3) (2022-07-10)
+
+
+### Features
+
+* **base:** move more rules into separate files ([8a23bc1](https://github.com/marekvospel/eslint-config/commit/8a23bc185db7b410ffefa3ea3398e21bc5e9720b))
+* use spread operator instead of Object.assign, minify configs, add banners ([dffef04](https://github.com/marekvospel/eslint-config/commit/dffef046a901408836a4a450b3cc45e76240cddd))
+* **vue:** add more rules, move rules into separate files ([7126e5b](https://github.com/marekvospel/eslint-config/commit/7126e5bbfb08696192d1ee8242d8df20b816bfd6))
+* **vue:** extend @vospel/typescript ([f939361](https://github.com/marekvospel/eslint-config/commit/f93936120120b6085e85bb91765a3080f278bef9))
+
 ### [1.4.2](https://github.com/marekvospel/eslint-config/compare/1.4.1...1.4.2) (2022-07-07)
 
 ### [1.4.1](https://github.com/marekvospel/eslint-config/compare/1.3.6...1.4.1) (2022-07-06)
