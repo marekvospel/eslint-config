@@ -1,3 +1,10 @@
+### [1.4.8](https://github.com/marekvospel/eslint-config/compare/1.4.7...1.4.8) (2022-07-10)
+
+
+### Bug Fixes
+
+* peer dependency issues ([ab635ca](https://github.com/marekvospel/eslint-config/commit/ab635caad5e0300747a283ddf29aedd1945475f2))
+
 ### [1.4.7](https://github.com/marekvospel/eslint-config/compare/1.4.6...1.4.7) (2022-07-10)
 
 
