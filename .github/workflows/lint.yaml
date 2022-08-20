@@ -12,8 +12,8 @@ jobs:
          node-version: 18
          cache: pnpm
 
-     - name: Install
-       run: pnpm i
+     - name: Install & build
+       run: pnpm i && pnpm build
 
      - name: Lint
        run: pnpm lint
