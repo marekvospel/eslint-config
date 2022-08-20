@@ -53,12 +53,12 @@ importers:
       eslint: ^8.11.0
       eslint-plugin-svelte: ^2.2.0
       svelte: ^3.49.0
-      svelte-eslint-parser: ^0.16.4
+      svelte-eslint-parser: ^0.18.0
     dependencies:
       '@vospel/eslint-config-typescript': link:../typescript
       eslint-plugin-svelte: 2.2.0_jxmmfmurkts274jdspwh3cyqve
       svelte: 3.49.0
-      svelte-eslint-parser: 0.16.4_svelte@3.49.0
+      svelte-eslint-parser: 0.18.0_svelte@3.49.0
     devDependencies:
       eslint: 8.19.0
 
@@ -2460,6 +2460,18 @@ packages:
 
   /svelte-eslint-parser/0.16.4_svelte@3.49.0:
     resolution: {integrity: sha512-hKTQxH0jiFBnvdAaNcYFScxLNqJf9+tzMDr4ojdjfVrc7OORwkK+eMNuyazhCMc2UD7Ikv+3gGrWiaCeYd5dAQ==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      svelte: ^3.37.0
+    dependencies:
+      eslint-scope: 7.1.1
+      eslint-visitor-keys: 3.3.0
+      espree: 9.3.2
+      svelte: 3.49.0
+    dev: false
+
+  /svelte-eslint-parser/0.18.0_svelte@3.49.0:
+    resolution: {integrity: sha512-XYmAW8I45Bd5RhUr4JpCbu0sSZ2jzvfG1NkOW8Hxv+eTxReXVBBCRg1d7czRY+iZOg289dTI5JHtu9ZR4R9dCA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       svelte: ^3.37.0
