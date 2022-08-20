@@ -27,7 +27,7 @@
   },
   "packageManager": "pnpm@7.9.3",
   "scripts": {
-    "lint": "eslint --fix .",
+    "lint": "eslint .",
     "lint:staged": "lint-staged",
     "prepare": "husky install",
     "build": "pnpm -r build",
