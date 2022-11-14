@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/marekvospel/eslint-config/compare/1.5.0...1.6.0) (2022-11-14)
+
+
+### Features
+
+* add json configuration ([d8d2719](https://github.com/marekvospel/eslint-config/commit/d8d27199cc180993e3fdb8886f85b456813170b0))
+
 ## [1.5.0](https://github.com/marekvospel/eslint-config/compare/1.4.9...1.5.0) (2022-11-14)
 
 
