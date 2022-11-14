@@ -5,10 +5,7 @@
   "license": "MIT",
   "description": "Marek Vospěl's eslint configurations",
   "author": "Marek Vospěl",
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
+  "keywords": ["eslint", "eslint-config"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marekvospel/eslint-config.git"
@@ -37,11 +34,7 @@
     "release": "pnpm -r publish --access public"
   },
   "lint-staged": {
-    "*.{js,jsx,vue,ts,tsx}": [
-      "eslint --fix"
-    ]
+    "*.{js,jsx,vue,ts,tsx}": ["eslint --fix"]
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": ["packages/*"]
 }

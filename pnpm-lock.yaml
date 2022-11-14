@@ -39,15 +39,30 @@ importers:
   packages/config:
     specifiers:
       '@vospel/eslint-config-base': workspace:*
+      '@vospel/eslint-config-json': workspace:*
       '@vospel/eslint-config-svelte': workspace:*
       '@vospel/eslint-config-typescript': workspace:*
       '@vospel/eslint-config-vue': workspace:*
       eslint: ^8.27.0
     dependencies:
       '@vospel/eslint-config-base': link:../base
+      '@vospel/eslint-config-json': link:../json
       '@vospel/eslint-config-svelte': link:../svelte
       '@vospel/eslint-config-typescript': link:../typescript
       '@vospel/eslint-config-vue': link:../vue
+    devDependencies:
+      eslint: 8.27.0
+
+  packages/json:
+    specifiers:
+      '@vospel/eslint-config-base': workspace:*
+      eslint: ^8.27.0
+      eslint-plugin-jsonc: 2.5.0
+      jsonc-eslint-parser: 2.1.0
+    dependencies:
+      '@vospel/eslint-config-base': link:../base
+      eslint-plugin-jsonc: 2.5.0_eslint@8.27.0
+      jsonc-eslint-parser: 2.1.0
     devDependencies:
       eslint: 8.27.0
 
@@ -1148,6 +1163,18 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
+  /eslint-plugin-jsonc/2.5.0_eslint@8.27.0:
+    resolution: {integrity: sha512-G257khwkrOQ5MJpSzz4yQh5K12W4xFZRcHmVlhVFWh2GCLDX+JwHnmkQoUoFDbOieSPBMsPFZDTJScwrXiWlIg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      eslint: 8.27.0
+      eslint-utils: 3.0.0_eslint@8.27.0
+      jsonc-eslint-parser: 2.1.0
+      natural-compare: 1.4.0
+    dev: false
+
   /eslint-plugin-svelte/2.13.0_ktwpzwc5ejqdbyb2mks6m4mhya:
     resolution: {integrity: sha512-/lNRny2zZmvCqm5DPE7Yt7WaP6ESCcPhiUdeBA57r1SOaCgBGUk6eUX1LtnmV/L3dXMs5ammVG5iX0UpjWF0Kg==}
     engines: {node: ^14.17.0 || >=16.0.0}
@@ -1740,6 +1767,16 @@ packages:
   /json-stringify-safe/5.0.1:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: true
+
+  /jsonc-eslint-parser/2.1.0:
+    resolution: {integrity: sha512-qCRJWlbP2v6HbmKW7R3lFbeiVWHo+oMJ0j+MizwvauqnCV/EvtAeEeuCgoc/ErtsuoKgYB8U4Ih8AxJbXoE6/g==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      acorn: 8.8.1
+      eslint-visitor-keys: 3.3.0
+      espree: 9.4.1
+      semver: 7.3.8
+    dev: false
 
   /jsonc-parser/3.2.0:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
