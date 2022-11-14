@@ -1,6 +1,6 @@
 
-import { resolve } from 'path'
-import esbuild from 'rollup-plugin-esbuild'
+const { resolve } = require('path')
+const esbuild = require('rollup-plugin-esbuild').default
 
 if (!process.env.TARGET) {
   throw new Error('TARGET package must be specified via --environment flag.')
