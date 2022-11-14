@@ -22,7 +22,6 @@ module.exports = {
       allowWithDecorator: true,
     }],
     '@typescript-eslint/no-extra-non-null-assertion': ['warn'],
-    '@typescript-eslint/no-for-in-array': ['error'],
     '@typescript-eslint/no-inferrable-types': ['warn'],
     '@typescript-eslint/no-misused-new': ['error'],
     '@typescript-eslint/no-namespace': ['error'],
