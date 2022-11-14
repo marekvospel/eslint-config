@@ -25,11 +25,11 @@
     "eslint": ">=7.4.0"
   },
   "devDependencies": {
-    "eslint": "^8.11.0"
+    "eslint": "^8.27.0"
   },
   "dependencies": {
     "@vospel/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-vue": "^9.2.0",
-    "vue-eslint-parser": "^9.0.3"
+    "eslint-plugin-vue": "9.7.0",
+    "vue-eslint-parser": "9.1.0"
   }
 }

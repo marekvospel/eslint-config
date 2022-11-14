@@ -89,7 +89,6 @@ export const rules = {
   // other
   'eol-last': ['warn', 'always'],
   'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
-  'multiline-comment-style': ['warn', 'bare-block'],
   'camelcase': ['error', { properties: 'never', ignoreDestructuring: false }],
   'new-parens': ['error', 'always'],
   'no-extra-boolean-cast': ['warn'],

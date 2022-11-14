@@ -25,12 +25,12 @@
     "eslint": ">=7.4.0"
   },
   "devDependencies": {
-    "eslint": "^8.11.0"
+    "eslint": "^8.27.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.30.4",
-    "@typescript-eslint/parser": "^5.30.4",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
     "@vospel/eslint-config-base": "workspace:*",
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.4"
   }
 }

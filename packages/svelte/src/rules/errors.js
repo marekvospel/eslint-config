@@ -11,4 +11,9 @@ export const rules = {
   'svelte/no-at-html-tags': ['error'],
   'svelte/no-target-blank': ['error'],
   'svelte/no-inner-declarations': ['error'],
+  'svelte/no-reactive-literals': ['error'],
+  'svelte/no-store-async': ['error'],
+  'svelte/require-store-reactive-access': ['error'],
+  'svelte/require-store-callbacks-use-set-param': ['error'],
+  'svelte/no-dom-manipulating': ['error'],
 }

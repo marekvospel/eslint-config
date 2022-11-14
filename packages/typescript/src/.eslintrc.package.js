@@ -37,7 +37,16 @@ module.exports = {
     '@typescript-eslint/prefer-namespace-keyword': ['error'],
     '@typescript-eslint/prefer-optional-chain': ['warn'],
     '@typescript-eslint/prefer-ts-expect-error': ['warn'],
-    '@typescript-eslint/type-annotation-spacing': ['warn', { before: false, after: true }],
+    '@typescript-eslint/type-annotation-spacing': ['warn', {
+      before: false,
+      after: true,
+      overrides: {
+        arrow: {
+          before: true,
+          after: true,
+        },
+      },
+    }],
 
     'quotes': ['off'],
     '@typescript-eslint/quotes': ['warn', 'single'],

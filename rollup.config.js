@@ -1,6 +1,8 @@
 
 const { resolve } = require('path')
 const esbuild = require('rollup-plugin-esbuild').default
+const nodeResolve = require('@rollup/plugin-node-resolve').default
+const commonjs = require('@rollup/plugin-commonjs').default
 
 if (!process.env.TARGET) {
   throw new Error('TARGET package must be specified via --environment flag.')
@@ -18,6 +20,8 @@ const banner = `/*!
 module.exports = {
   input: 'src/.eslintrc.package.js',
   plugins: [
+    nodeResolve({ browser: false }),
+    commonjs(),
     esbuild({ minify: true }),
   ],
   output: {

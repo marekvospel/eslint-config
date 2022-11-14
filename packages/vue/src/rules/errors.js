@@ -61,4 +61,5 @@ export const rules = {
   'vue/valid-v-is': ['error'],
   'vue/valid-v-memo': ['error'],
   'vue/html-end-tags': ['error'],
+  'vue/no-ref-object-destructure': ['error'],
 }
