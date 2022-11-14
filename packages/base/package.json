@@ -1,6 +1,6 @@
 {
   "name": "@vospel/eslint-config-base",
-  "version": "1.4.9",
+  "version": "1.5.0",
   "license": "MIT",
   "description": "Marek Vospěl's base eslint configuration",
   "author": "Marek Vospěl",

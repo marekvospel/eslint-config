@@ -1,3 +1,19 @@
+## [1.5.0](https://github.com/marekvospel/eslint-config/compare/1.4.9...1.5.0) (2022-11-14)
+
+
+### Features
+
+* **deps:** update dependencies and their rules ([c9aee19](https://github.com/marekvospel/eslint-config/commit/c9aee19e77c48f4ea568cd8d0a6e63affebc846d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency svelte-eslint-parser to ^0.18.0 ([#3](https://github.com/marekvospel/eslint-config/issues/3)) ([e5f5ead](https://github.com/marekvospel/eslint-config/commit/e5f5ead0465283126ebc639dffdff4ca22d12af9))
+* **deps:** update dependency svelte-eslint-parser to ^0.19.0 ([#22](https://github.com/marekvospel/eslint-config/issues/22)) ([1092113](https://github.com/marekvospel/eslint-config/commit/109211378d5a038b981474726947916e33f74687))
+* **deps:** update dependency svelte-eslint-parser to ^0.20.0 ([#24](https://github.com/marekvospel/eslint-config/issues/24)) ([4050963](https://github.com/marekvospel/eslint-config/commit/40509633327499d641702941f2d1a03b5e255f36))
+* **deps:** update dependency svelte-eslint-parser to ^0.21.0 ([#28](https://github.com/marekvospel/eslint-config/issues/28)) ([b65570d](https://github.com/marekvospel/eslint-config/commit/b65570d1e0b0d9bbfef6352dd082b1da55012d91))
+* **typescript:** remove no-for-in-array rule ([5067c11](https://github.com/marekvospel/eslint-config/commit/5067c114c52e7acbcd296ffacc5f286e2f6f9ded))
+
 ### [1.4.9](https://github.com/marekvospel/eslint-config/compare/1.4.8...1.4.9) (2022-07-10)
 
 
