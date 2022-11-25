@@ -70,12 +70,12 @@ importers:
     specifiers:
       '@vospel/eslint-config-typescript': workspace:*
       eslint: ^8.27.0
-      eslint-plugin-svelte: 2.13.0
+      eslint-plugin-svelte: 2.13.1
       svelte: ^3.53.1
       svelte-eslint-parser: 0.22.0
     dependencies:
       '@vospel/eslint-config-typescript': link:../typescript
-      eslint-plugin-svelte: 2.13.0_ktwpzwc5ejqdbyb2mks6m4mhya
+      eslint-plugin-svelte: 2.13.1_ktwpzwc5ejqdbyb2mks6m4mhya
       svelte: 3.53.1
       svelte-eslint-parser: 0.22.0_svelte@3.53.1
     devDependencies:
@@ -1175,8 +1175,8 @@ packages:
       natural-compare: 1.4.0
     dev: false
 
-  /eslint-plugin-svelte/2.13.0_ktwpzwc5ejqdbyb2mks6m4mhya:
-    resolution: {integrity: sha512-/lNRny2zZmvCqm5DPE7Yt7WaP6ESCcPhiUdeBA57r1SOaCgBGUk6eUX1LtnmV/L3dXMs5ammVG5iX0UpjWF0Kg==}
+  /eslint-plugin-svelte/2.13.1_ktwpzwc5ejqdbyb2mks6m4mhya:
+    resolution: {integrity: sha512-PZ0h8mm9vdVndLNoCUVujYFuWpp+AmCT5GnhjZ1q4dR3zLgQdL+V7Ce0KI1EQ8/4D6GExLMYcOd8vgGUdxxOxg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0
@@ -1195,7 +1195,7 @@ packages:
       postcss-safe-parser: 6.0.0_postcss@8.4.19
       sourcemap-codec: 1.4.8
       svelte: 3.53.1
-      svelte-eslint-parser: 0.21.0_svelte@3.53.1
+      svelte-eslint-parser: 0.22.0_svelte@3.53.1
     transitivePeerDependencies:
       - supports-color
       - ts-node
