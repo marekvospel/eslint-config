@@ -70,12 +70,12 @@ importers:
     specifiers:
       '@vospel/eslint-config-typescript': workspace:*
       eslint: ^8.27.0
-      eslint-plugin-svelte: 2.13.1
+      eslint-plugin-svelte: 2.14.0
       svelte: ^3.53.1
       svelte-eslint-parser: 0.22.0
     dependencies:
       '@vospel/eslint-config-typescript': link:../typescript
-      eslint-plugin-svelte: 2.13.1_ktwpzwc5ejqdbyb2mks6m4mhya
+      eslint-plugin-svelte: 2.14.0_ktwpzwc5ejqdbyb2mks6m4mhya
       svelte: 3.53.1
       svelte-eslint-parser: 0.22.0_svelte@3.53.1
     devDependencies:
@@ -1175,8 +1175,8 @@ packages:
       natural-compare: 1.4.0
     dev: false
 
-  /eslint-plugin-svelte/2.13.1_ktwpzwc5ejqdbyb2mks6m4mhya:
-    resolution: {integrity: sha512-PZ0h8mm9vdVndLNoCUVujYFuWpp+AmCT5GnhjZ1q4dR3zLgQdL+V7Ce0KI1EQ8/4D6GExLMYcOd8vgGUdxxOxg==}
+  /eslint-plugin-svelte/2.14.0_ktwpzwc5ejqdbyb2mks6m4mhya:
+    resolution: {integrity: sha512-TOlOk08vghQ97wAExxL785rrK65v7BwVbXY1UTY/TiWGpHh1Hn0IMfE4MUB+ij2Lv442GKw2873Gq4aUHqSgsA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0
@@ -2571,6 +2571,7 @@ packages:
 
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
 
   /spdx-correct/3.1.1:
     resolution: {integrity: sha512-cOYcUWwhCuHCXi49RhFRCyJEK3iPj1Ziz9DpViV3tbZOwXD49QzIN3MpOLJNxh2qwq2lJJZaKMVw9qNi4jTC0w==}
@@ -2692,18 +2693,6 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
-
-  /svelte-eslint-parser/0.21.0_svelte@3.53.1:
-    resolution: {integrity: sha512-RGUPcGPZxjA4xLBrdT5xkw/AdlFOOqRaizLGJLgpjowROfBkAZsPlnNQbAXzPuWnaELjCCQkYUlKaQ6SvzPS2w==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    peerDependencies:
-      svelte: ^3.37.0
-    dependencies:
-      eslint-scope: 7.1.1
-      eslint-visitor-keys: 3.3.0
-      espree: 9.4.1
-      svelte: 3.53.1
-    dev: false
 
   /svelte-eslint-parser/0.22.0_svelte@3.53.1:
     resolution: {integrity: sha512-KQut6bb5dPwQ1SYTN/m5rxCkEDWDXiZpOXl05afNKGnjCMC5ZpGVrJM7BtFGwV2kPFeIiwRW+ofY3GxfqFBNpw==}
