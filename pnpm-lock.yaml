@@ -70,12 +70,12 @@ importers:
     specifiers:
       '@vospel/eslint-config-typescript': workspace:*
       eslint: ^8.27.0
-      eslint-plugin-svelte: 2.14.0
+      eslint-plugin-svelte: 2.14.1
       svelte: ^3.53.1
       svelte-eslint-parser: 0.22.0
     dependencies:
       '@vospel/eslint-config-typescript': link:../typescript
-      eslint-plugin-svelte: 2.14.0_ktwpzwc5ejqdbyb2mks6m4mhya
+      eslint-plugin-svelte: 2.14.1_ktwpzwc5ejqdbyb2mks6m4mhya
       svelte: 3.53.1
       svelte-eslint-parser: 0.22.0_svelte@3.53.1
     devDependencies:
@@ -1175,8 +1175,8 @@ packages:
       natural-compare: 1.4.0
     dev: false
 
-  /eslint-plugin-svelte/2.14.0_ktwpzwc5ejqdbyb2mks6m4mhya:
-    resolution: {integrity: sha512-TOlOk08vghQ97wAExxL785rrK65v7BwVbXY1UTY/TiWGpHh1Hn0IMfE4MUB+ij2Lv442GKw2873Gq4aUHqSgsA==}
+  /eslint-plugin-svelte/2.14.1_ktwpzwc5ejqdbyb2mks6m4mhya:
+    resolution: {integrity: sha512-7M4QHtbtTjLA2xore4rXBwKshPaycil5AsOwYNyvJdunEEdimrIp6otX6PGpFoAojz+qTb4MZuReaHEj1hX7Wg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0
