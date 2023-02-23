@@ -17,7 +17,7 @@
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@vospel/eslint-config": "workspace:*",
-    "bumpp": "^8.2.1",
+    "bumpp": "^9.0.0",
     "conventional-changelog-cli": "^2.2.2",
     "esbuild": "^0.17.0",
     "eslint": "^8.27.0",
