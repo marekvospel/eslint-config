@@ -30,6 +30,6 @@
   "dependencies": {
     "@vospel/eslint-config-base": "workspace:*",
     "eslint-plugin-jsonc": "2.5.0",
-    "jsonc-eslint-parser": "2.1.0"
+    "jsonc-eslint-parser": "2.3.0"
   }
 }

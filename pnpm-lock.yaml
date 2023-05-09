@@ -78,8 +78,8 @@ importers:
         specifier: 2.5.0
         version: 2.5.0(eslint@8.27.0)
       jsonc-eslint-parser:
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.3.0
+        version: 2.3.0
     devDependencies:
       eslint:
         specifier: ^8.27.0
@@ -1203,7 +1203,7 @@ packages:
     dependencies:
       eslint: 8.27.0
       eslint-utils: 3.0.0(eslint@8.27.0)
-      jsonc-eslint-parser: 2.1.0
+      jsonc-eslint-parser: 2.3.0
       natural-compare: 1.4.0
     dev: false
 
@@ -1788,8 +1788,8 @@ packages:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: true
 
-  /jsonc-eslint-parser@2.1.0:
-    resolution: {integrity: sha512-qCRJWlbP2v6HbmKW7R3lFbeiVWHo+oMJ0j+MizwvauqnCV/EvtAeEeuCgoc/ErtsuoKgYB8U4Ih8AxJbXoE6/g==}
+  /jsonc-eslint-parser@2.3.0:
+    resolution: {integrity: sha512-9xZPKVYp9DxnM3sd1yAsh/d59iIaswDkai8oTxbursfKYbg/ibjX0IzFt35+VZ8iEW453TVTXztnRvYUQlAfUQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       acorn: 8.8.1
