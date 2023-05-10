@@ -91,8 +91,8 @@ importers:
         specifier: workspace:*
         version: link:../typescript
       eslint-plugin-svelte:
-        specifier: 2.15.0
-        version: 2.15.0(eslint@8.27.0)(svelte@3.53.1)
+        specifier: 2.28.0
+        version: 2.28.0(eslint@8.27.0)(svelte@3.53.1)
       svelte:
         specifier: ^3.53.1
         version: 3.53.1
@@ -359,6 +359,16 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@eslint-community/eslint-utils@4.4.0(eslint@8.27.0):
+    resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+    dependencies:
+      eslint: 8.27.0
+      eslint-visitor-keys: 3.3.0
+    dev: false
 
   /@eslint/eslintrc@1.3.3:
     resolution: {integrity: sha512-uj3pT6Mg+3t39fvLrj8iuCIJ38zKO9FpGtJ4BBJebJhEwjoT+KLVNCcHT5QC9NGRIEi7fZ0ZR8YRb884auB4Lg==}
@@ -1207,8 +1217,8 @@ packages:
       natural-compare: 1.4.0
     dev: false
 
-  /eslint-plugin-svelte@2.15.0(eslint@8.27.0)(svelte@3.53.1):
-    resolution: {integrity: sha512-29RfdKqEPdrT6vRK66Tn8u9UlM0Kxq/JfLtmdimMbvHfb3tXMNyYN0sW5ontQRFea7mf5qH/mr1kDMzz0vOFHw==}
+  /eslint-plugin-svelte@2.28.0(eslint@8.27.0)(svelte@3.53.1):
+    resolution: {integrity: sha512-bXPXKnjq5uKoVAQtC2E0L1Vp+mmJ3nlC9jyz8zwfZ99pQROL2h7Hes01QdYil1vxgh6tLXl5YVpZ2wwyAbBz5g==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0
@@ -1217,17 +1227,17 @@ packages:
       svelte:
         optional: true
     dependencies:
+      '@eslint-community/eslint-utils': 4.4.0(eslint@8.27.0)
       '@jridgewell/sourcemap-codec': 1.4.14
       debug: 4.3.4
       eslint: 8.27.0
-      eslint-utils: 3.0.0(eslint@8.27.0)
       esutils: 2.0.3
-      known-css-properties: 0.26.0
+      known-css-properties: 0.27.0
       postcss: 8.4.19
       postcss-load-config: 3.1.4(postcss@8.4.19)
       postcss-safe-parser: 6.0.0(postcss@8.4.19)
       svelte: 3.53.1
-      svelte-eslint-parser: 0.22.0(svelte@3.53.1)
+      svelte-eslint-parser: 0.28.0(svelte@3.53.1)
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -1817,8 +1827,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /known-css-properties@0.26.0:
-    resolution: {integrity: sha512-5FZRzrZzNTBruuurWpvZnvP9pum+fe0HcK8z/ooo+U+Hmp4vtbyp1/QDsqmufirXy4egGzbaH/y2uCZf+6W5Kg==}
+  /known-css-properties@0.27.0:
+    resolution: {integrity: sha512-uMCj6+hZYDoffuvAJjFAPz56E9uoowFHmTkqRtRq5WyC5Q6Cu/fTZKNQpX/RbzChBYLLl3lo8CjFZBAZXq9qFg==}
     dev: false
 
   /levn@0.4.1:
@@ -2701,6 +2711,21 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       svelte: ^3.37.0
+    dependencies:
+      eslint-scope: 7.1.1
+      eslint-visitor-keys: 3.3.0
+      espree: 9.4.1
+      svelte: 3.53.1
+    dev: false
+
+  /svelte-eslint-parser@0.28.0(svelte@3.53.1):
+    resolution: {integrity: sha512-qWg5M3CIp7LkcdG5bpn44QEd48UxvgxG5L+Sbl701EG8Wujht7EqJuJhqgzvO3bbI9ENbWCXK49eCcwiNnpMzw==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      svelte: ^3.37.0
+    peerDependenciesMeta:
+      svelte:
+        optional: true
     dependencies:
       eslint-scope: 7.1.1
       eslint-visitor-keys: 3.3.0
