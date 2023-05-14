@@ -30,6 +30,6 @@
   "dependencies": {
     "@vospel/eslint-config-typescript": "workspace:*",
     "eslint-plugin-vue": "9.7.0",
-    "vue-eslint-parser": "9.1.0"
+    "vue-eslint-parser": "9.3.0"
   }
 }
